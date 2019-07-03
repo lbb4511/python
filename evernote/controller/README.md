@@ -1,17 +1,18 @@
-#EvernoteController 160114
-    Aimed at:
-        Simplify Evernote API as mush as possible
-        The following contents can be added:
-            Oauth.py: get oauth automatically (added when DEV_TOKEN isn't set)
-            Storage.py: local storage to accelerate searching (added when LOCAL_STORAGE is True)
-    Environment:
-        Windows 8.1 - 64
-        Python 2.7.10
-    Attention:
-        Please fill in the evernote key and secret in Oauth.py before runing this
-        Evernote provided sandbox, where normal account can't be used
-        Expunge functions can only be used when using DeveloperToken
-        For sake of safety, evernote key and secret is not provided. I'm available if you need help.
+# EvernoteController 160114
+
+Aimed at:
+Simplify Evernote API as mush as possible
+The following contents can be added:
+Oauth.py: get oauth automatically (added when DEV_TOKEN isn't set)
+Storage.py: local storage to accelerate searching (added when LOCAL_STORAGE is True)
+Environment:
+Windows 8.1 - 64
+Python 2.7.10
+Attention:
+Please fill in the evernote key and secret in Oauth.py before runing this
+Evernote provided sandbox, where normal account can't be used
+Expunge functions can only be used when using DeveloperToken
+For sake of safety, evernote key and secret is not provided. I'm available if you need help.
 
     目标：
         将Evernote API的调用尽可能的简化
